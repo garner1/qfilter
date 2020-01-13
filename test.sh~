@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+fastq=$1 # compressed input fastq file
+
+zcat ${fastq} | paste - - - - | cut -f4 | cut -c-8 | head
+
+# for char in $(head -1 ${fastq} | paste - - - - | cut -f4 | fold -w1);do
+#     printf '%d' "'$char";printf "\n";
+# done | /usr/local/share/anaconda3/bin/datamash transpose
