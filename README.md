@@ -8,6 +8,13 @@ filter.py:  Python script called in main.sh to filter the input fastq file
 ## Input
 /path/to/infastq: Full path to decompresed fastq file
 
-
 ## Output
 /path/to/infastq.filtered.fq: Default output hard-coded in main.sh
+
+## How to run
+1. Clone or download the repo
+2. Enter in the repo directory
+3.
+```bash
+bash main.sh /path/to/infastq
+```
