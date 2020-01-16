@@ -1,5 +1,5 @@
 # qfilter
-Filter fastq reads by the quality of specifies bases
+Filter fastq reads by the barcode's base-quality
 
 ## List of files and directories
 main.sh: Bash script to be run in order to filter an input .fastq file with respect to the quality of the bases in the barcode
