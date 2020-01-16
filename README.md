@@ -15,4 +15,5 @@ filter.py:  Python script called in main.sh to filter the input fastq file
 1. Clone or download the repo
 2. Enter in the repo directory
 3.```bash
-bash main.sh /path/to/infastq```
+bash main.sh /path/to/infastq
+```
